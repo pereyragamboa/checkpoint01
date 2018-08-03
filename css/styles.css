@@ -1,0 +1,57 @@
+* {
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    margin: 0.5em;
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h3, h5 {
+    font-weight: bold;
+}
+
+a {
+    color: darkgoldenrod;
+}
+
+a:hover {
+    color: saddlebrown;
+    background-color: goldenrod;
+    text-decoration: underline;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+footer p {
+    margin: 0.3em;
+}
+
+#slogan {
+    text-align: center;
+    font-style: italic;
+    padding: 3em;
+    background-color: white;
+    font-size: 200%;
+}
+
+.btn-primary {
+    border-color: darkgoldenrod;
+    background-color: goldenrod;
+    color: saddlebrown;
+}
+
+.btn-primary:hover {
+    border-color: saddlebrown;
+    background-color: darkgoldenrod;
+}
+
+.nav-tabs, .carousel {
+    background-color: white;
+}
